@@ -1,6 +1,6 @@
 # jLang Compiler
 
-jLang is a simple programming language designed as an introduction for me to compiler construction. It features an easy-to-understand syntax as follows:
+jLang is a simple programming language that I created, it features an easy-to-understand syntax as follows:
 
 ```text
 term = <input> | variable | literal

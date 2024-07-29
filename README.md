@@ -7,9 +7,11 @@ term = <input> | variable | literal
 expression = term | term + term | ...
 rel = term < term | ...
 instr = variable = expression | <if> rel <then> instr | <goto> :label | <output> term | :label
+```
 
 Here is an example of a program in jLang:
 
+```
 m = input
 j = 1
 :start
@@ -19,3 +21,4 @@ if j < m then goto :start
 if j < 15 then goto :end
 output 42
 :end
+```
